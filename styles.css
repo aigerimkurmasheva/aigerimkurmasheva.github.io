@@ -1,0 +1,80 @@
+body {
+ background-color: white;
+margin: 10px;
+padding: 20px;
+font-family: Monaco;
+color: white;
+border-style: solid;
+}
+
+h1 {
+color: white;
+text-align: center;
+}
+
+h2 {
+color: #FFF0DF;
+} 
+
+
+.photo {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 30%;
+height: 30%;
+}
+
+.active {
+color: #EFE7BC;
+font-size: 15pt;
+}
+
+.menu {
+color: #0F1E64;
+font-size: 8pt;
+}
+
+a:hover {
+  color: #274472;
+}
+
+#heading {
+color: #FFA384;
+}
+
+.names {
+text-align: center;
+color: white;
+font-size: 18pt;
+}
+
+body {
+  background-color: #50655B;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: black;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #50655B;
+  }
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  width: 28%;
+  float: left;
+}
+.main {
+  width: 75%;
+  float: left;
+}
